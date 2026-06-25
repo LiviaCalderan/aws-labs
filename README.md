@@ -13,6 +13,7 @@ A ideia deste espaço é registrar, de forma prática e organizada, os serviços
 | --- | --- | --- |
 | [Monitoring and Auditing with CloudWatch and CloudTrail](./monitoring-and-auditing-with-cloudwatch-and-cloudtrail/LAB-INFO.md) | EC2, CloudWatch, SNS, CloudTrail, S3, KMS | Configuração de monitoramento de CPU em uma instância EC2, alerta via SNS e auditoria de eventos com CloudTrail armazenando logs no S3. |
 | [Fan-out Architecture with SNS, SQS and Lambda](./fan-out-architecture-with-sns-sqs-lambda/LAB-INFO.md) | SNS, SQS, Lambda, IAM, CloudWatch Logs | Implementação de uma arquitetura fan-out para distribuir eventos de pedidos de e-commerce para múltiplos consumidores desacoplados, com filtros SNS, SQS, DLQ e validação no CloudWatch Logs. |
+| [Semana do Desenvolvedor - Sistema Serverless de Pedidos](./semana-dev-projeto/LAB-INFO.md) | API Gateway, Lambda, SQS, EventBridge, S3, DynamoDB, SNS, IAM, CloudWatch Logs | Construção de uma arquitetura serverless orientada a eventos para ingestão, validação, processamento, persistência, alteração e cancelamento de pedidos. |
 
 ## Temas de Estudo
 
@@ -22,9 +23,12 @@ Ao longo dos laboratórios, este repositório poderá abordar temas como:
 - Monitoramento com Amazon CloudWatch
 - Auditoria e governança com AWS CloudTrail
 - Armazenamento com Amazon S3
+- APIs REST com Amazon API Gateway
 - Notificações com Amazon SNS
 - Mensageria assíncrona com Amazon SQS
 - Processamento serverless com AWS Lambda
+- Orquestração de eventos com Amazon EventBridge
+- Persistência de dados com Amazon DynamoDB
 - Segurança, IAM e controle de acesso
 - Criptografia com AWS KMS
 - Arquiteturas resilientes e escaláveis
